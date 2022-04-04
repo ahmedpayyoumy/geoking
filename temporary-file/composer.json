@@ -1,0 +1,21 @@
+{
+    "name": "prismateq/temporary-file",
+    "description": "Temporary Files for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prismateq Team",
+            "email": "development@prismateq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "spatie/temporary-directory": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prismateq\\TemporaryFile\\": "src"
+        }
+    }
+}

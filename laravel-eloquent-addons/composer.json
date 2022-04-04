@@ -1,0 +1,27 @@
+{
+    "name": "prismateq/laravel-eloquent-addons",
+    "description": "Laravel eloquent addons and new features.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prismateq Team",
+            "email": "development@prismateq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prismateq\\EloquentAddons\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prismateq\\EloquentAddons\\EloquentAddonsServiceProvider"
+            ]
+        }
+    }
+}

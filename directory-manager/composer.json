@@ -1,0 +1,20 @@
+{
+    "name": "prismateq/directory-manager",
+    "description": "Simple Laravel Directory Manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prismateq Team",
+            "email": "development@prismateq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prismateq\\DirectoryManager\\": "src"
+        }
+    }
+}

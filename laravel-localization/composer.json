@@ -1,0 +1,32 @@
+{
+    "name": "prismateq/laravel-localization",
+    "description": "Localization package for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prismareq Team",
+            "email": "development@prismateq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": ">=5.6",
+        "prismateq/directory-manager": "^1.0",
+        "prismateq/laravel-eloquent-addons": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Prismateq\\Localization\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prismateq\\Localization\\LocalizationServiceProvider"
+            ]
+        }
+    }
+}

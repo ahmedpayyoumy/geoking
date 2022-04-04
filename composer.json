@@ -1,0 +1,9 @@
+{
+    "name": "geoking/prismateq",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": ">=7.4"
+    },
+    "minimum-stability": "dev",
+    "license": "MIT"
+}

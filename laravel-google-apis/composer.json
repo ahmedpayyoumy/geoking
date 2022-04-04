@@ -1,0 +1,31 @@
+{
+    "name": "prismateq/laravel-google-apis",
+    "description": "Google Api Client wrapper with improvements and new services for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prismateq Team",
+            "email": "development@prismateq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": ">=5.6",
+        "google/apiclient": "^2.8"
+    },
+    "autoload": {
+        "files": [
+            "services/MyBusiness.php"
+        ],
+        "psr-4": {
+            "Prismateq\\GoogleApis\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prismateq\\GoogleApis\\GoogleApisServiceProvider"
+            ]
+        }
+    }
+}

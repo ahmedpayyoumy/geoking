@@ -1,0 +1,27 @@
+{
+    "name": "prismateq/laravel-supervisor",
+    "description": "Laravel Supervisor Config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prismareq Team",
+            "email": "development@prismateq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prismateq\\Supervisor\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Prismateq\\Supervisor\\SupervisorServiceProvider"
+            ]
+        }
+    }
+}
